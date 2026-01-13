@@ -1,0 +1,78 @@
+:root {
+  font-family: system-ui, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  background: #0b1220;
+  color: #e8eefc;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  width: min(680px, 92vw);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+
+h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.sub {
+  margin: 6px 0 18px;
+  opacity: 0.8;
+  font-size: 13px;
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  opacity: 0.85;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.08);
+  color: #e8eefc;
+  outline: none;
+  font-size: 14px;
+}
+
+.input:focus {
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  gap: 12px;
+}
+
+.status {
+  opacity: 0.85;
+  font-size: 13px;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.badge.idle { opacity: 0.85; }
+.badge.loading

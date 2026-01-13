@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RxJS Demo</title>
+</head>
+
+<body>
+<div class="card">
+  <h2>RxJS Demo</h2>
+  <p class="sub"></p>
+
+  <label class="label" for="search">Zoekterm</label>
+  <input id="search" class="input" placeholder="Typ om te zoeken..." />
+
+  <div class="row">
+    <span id="status" class="status">Typ iets…</span>
+    <span id="badge" class="badge idle">Idle</span>
+  </div>
+
+  <ul id="list" class="list"></ul>
+</div>
+
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
